@@ -1,0 +1,27 @@
+body{
+    display: grid;
+    grid-template-rows: 100px minmax(calc(100vh - 170px), 1fr) 50px;
+
+}
+
+header{
+    background-color: black;
+}
+
+table th{
+
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+table tr:hover {background-color: #ddd;}
+
+table  td, table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even){background-color: #f2f2f2;}
